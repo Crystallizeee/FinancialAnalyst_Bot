@@ -82,7 +82,3 @@ Manajement Investasi/
 ## ⚠️ Disclaimer
 
 **Ini bukan nasihat finansial profesional.** Bot ini dibuat untuk tujuan edukasi. Selalu lakukan riset sendiri sebelum mengambil keputusan investasi.
-
-## 📝 License
-
-MIT License
