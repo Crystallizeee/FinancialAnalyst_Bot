@@ -1,0 +1,41 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environment
+.venv/
+venv/
+ENV/
+env/
+
+# Environment variables
+.env
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Data files (contain user data)
+data/portfolios.json
+data/alerts.json
+data/subscriptions.json
+data/user_profiles.json
+data/watchlists.json
+
+# Charts (generated)
+charts/
+
+# Logs
+*.log
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Test files
+tests/__pycache__/
+.pytest_cache/
+.coverage
