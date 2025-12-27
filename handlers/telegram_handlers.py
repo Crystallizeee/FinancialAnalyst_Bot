@@ -1410,7 +1410,7 @@ async def predict_command(update: Update, context: ContextTypes.DEFAULT_TYPE):
             return
         
         # Get technical analysis
-        ta_result = technical_analysis.analyze(stock_code)
+        ta_result = technical_analysis.get_technical_indicators(stock_code)
         if ta_result:
             ta_text = f"""
 RSI: {ta_result.get('rsi', 'N/A')} ({ta_result.get('rsi_signal', 'N/A')})
